@@ -1,4 +1,4 @@
 .*  # ignore all hidden files and folders
-/.ipynb_checkpoints #ignore checkpoints in top folder
+.ipynb_checkpoints/ #ignore checkpoints in top folder
 **/.ipynb_checkpoints/* # ignore checkpoints in other folders 
 !/.gitignore  # explicitly do not ignore .gitignore
